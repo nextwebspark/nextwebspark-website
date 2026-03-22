@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon -->
+  <rect x="40" y="50" width="200" height="200" rx="40" fill="url(#bg)"/>
+  <text x="140" y="190" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="140" font-weight="800" fill="white">N</text>
+  <!-- Text (white for dark backgrounds) -->
+  <text x="280" y="185" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700" fill="white">NextWeb</text>
+  <text x="763" y="185" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700" fill="#a5b4fc">Spark</text>
+</svg>
