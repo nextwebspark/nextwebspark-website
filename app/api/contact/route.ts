@@ -1,9 +1,8 @@
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 
 export async function POST(request: Request) {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY);
     const { name, email, company, message } = await request.json();
 
     if (!name || !email || !message) {
@@ -13,8 +12,18 @@ export async function POST(request: Request) {
       );
     }
 
-    await resend.emails.send({
-      from: "NextWebSpark Contact <onboarding@resend.dev>",
+    const transporter = nodemailer.createTransport({
+      host: process.env.ZOHO_SMTP_HOST || "smtp.zoho.eu",
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.ZOHO_EMAIL,
+        pass: process.env.ZOHO_PASSWORD,
+      },
+    });
+
+    await transporter.sendMail({
+      from: `"NextWebSpark Contact" <${process.env.ZOHO_EMAIL}>`,
       to: "alok.kumar@nextwebspark.com",
       replyTo: email,
       subject: `New contact from ${name}`,
