@@ -51,6 +51,13 @@ export const metadata: Metadata = {
       "Production-grade AI agents and automation systems for SMEs and enterprises.",
     images: ["/og-image.png"],
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.ico",
+  },
   robots: {
     index: true,
     follow: true,
