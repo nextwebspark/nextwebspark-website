@@ -136,7 +136,7 @@ export default function ContactForm() {
         <p className="text-xs text-gray-500 text-center">
           Or{" "}
           <a
-            href="https://calendly.com"
+            href="https://calendly.com/nextwebspark/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary-600 hover:underline"
