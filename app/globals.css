@@ -72,6 +72,38 @@
   }
 }
 
+/* Prose table styling for blog posts */
+.prose table {
+  @apply w-full border-collapse text-sm;
+}
+
+.prose thead {
+  @apply bg-gray-50;
+}
+
+.prose th {
+  @apply border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900;
+}
+
+.prose td {
+  @apply border border-gray-200 px-4 py-3 text-gray-700;
+}
+
+.prose tbody tr:nth-child(even) {
+  @apply bg-gray-50/50;
+}
+
+.prose tbody tr:hover {
+  @apply bg-primary-50/30;
+}
+
+/* Responsive table wrapper */
+.prose table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
