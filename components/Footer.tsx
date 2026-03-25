@@ -44,10 +44,10 @@ export default function Footer() {
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-primary-400 shrink-0" />
                 <a
-                  href="mailto:hello@nextwebspark.com"
+                  href="mailto:alok.kumar@nextwebspark.com"
                   className="hover:text-white transition-colors"
                 >
-                  hello@nextwebspark.com
+                  alok.kumar@nextwebspark.com
                 </a>
               </div>
             </div>

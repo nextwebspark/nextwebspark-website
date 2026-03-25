@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, Tag } from "lucide-react";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { getAllSlugs, getPostBySlug } from "@/lib/blog";
 
 interface Props {
@@ -116,7 +117,7 @@ export default async function BlogPostPage({ params }: Props) {
       <section className="section-padding bg-white !pt-12">
         <div className="container-main px-4 sm:px-6 lg:px-8">
           <article className="max-w-3xl mx-auto prose prose-lg prose-gray prose-headings:font-bold prose-headings:tracking-tight prose-a:text-primary-600 prose-a:no-underline hover:prose-a:underline prose-img:rounded-xl prose-pre:bg-gray-900 prose-pre:text-gray-100">
-            <MDXRemote source={post.content} />
+            <MDXRemote source={post.content} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
           </article>
 
           {/* Bottom CTA */}
