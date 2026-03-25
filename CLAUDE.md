@@ -4,10 +4,10 @@
 
 **Company:** NextWebSpark Limited (Ireland)
 **Website:** https://nextwebspark.com/
-**Owner:** Alok Kumar — 10+ years software development experience, n8n Verified Creator, pursuing Claude Certified Architect
+**Owner:** Alok Kumar — 10+ years software development experience, n8n Verified Creator, Anthropic Skilljar Certified
 **Focus:** Helping SMEs and enterprises grow with AI — training, consultancy, and production-grade AI agent development
 **Services:** Lead generation, marketing automation, content creation, customer support, and custom AI agents
-**Partner Status:** Applying for Claude Partner Network
+**Certification:** Anthropic Skilljar Certified
 
 ## Tech Stack
 
@@ -149,5 +149,5 @@ npm run lint       # Run ESLint
 - The header is `fixed` with `bg-white/80 backdrop-blur-lg`
 - All pages are statically generated at build time for best performance
 - The site targets both SME and enterprise audiences — copy reflects this
-- Credentials emphasized throughout: 10yr dev experience, n8n creator, Claude architect
+- Credentials emphasized throughout: 10yr dev experience, n8n creator, Anthropic Skilljar certified
 - Dark sections (Hero, CTA) use `bg-dark` with `btn-secondary-dark` for button visibility

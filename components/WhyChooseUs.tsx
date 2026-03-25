@@ -16,9 +16,9 @@ const reasons = [
   },
   {
     icon: Award,
-    title: "Claude Certified Architect",
+    title: "Anthropic Certified Claude Expert",
     description:
-      "Deep expertise in Anthropic's Claude AI — we know how to harness its full potential for your business use cases.",
+      "Certified through Anthropic's Skilljar programme — we have proven expertise in harnessing Claude AI's full potential for your business.",
   },
   {
     icon: ShieldCheck,

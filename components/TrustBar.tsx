@@ -8,7 +8,7 @@ const badges = [
   },
   {
     icon: Award,
-    label: "Claude Certified Architect",
+    label: "Anthropic Certified Claude Expert",
     color: "text-primary-600",
   },
   {
