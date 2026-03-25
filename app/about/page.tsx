@@ -41,9 +41,9 @@ const timeline = [
   {
     icon: GraduationCap,
     year: "2026",
-    title: "Claude Certified Architect",
+    title: "Anthropic Certified Claude Expert",
     description:
-      "Pursuing Anthropic's Claude Certified Architect programme to deepen expertise in building enterprise-grade AI systems with Claude.",
+      "Completed Anthropic's Skilljar certification programme, demonstrating deep expertise in building enterprise-grade AI systems with Claude.",
   },
 ];
 

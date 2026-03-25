@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 bg-primary-600/10 border border-primary-500/20 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-sm font-medium text-primary-300">
-              Claude Partner &middot; n8n Verified Creator
+              Anthropic Certified &middot; n8n Verified Creator
             </span>
           </div>
 
