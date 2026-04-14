@@ -161,7 +161,7 @@ export default function ServicesPage() {
                   <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
                     {service.title}
                   </h2>
-                  <p className="text-lg text-primary-600 font-semibold mb-4">
+                  <p className="text-lg text-primary-900 font-semibold mb-4">
                     {service.subtitle}
                   </p>
                   <p className="text-gray-600 leading-relaxed mb-8">

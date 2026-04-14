@@ -9,7 +9,7 @@ const badges = [
   {
     icon: Award,
     label: "Anthropic Certified Claude Expert",
-    color: "text-primary-600",
+    color: "text-primary-900",
   },
   {
     icon: Code2,

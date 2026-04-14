@@ -142,7 +142,7 @@ export default function AboutPage() {
                   </div>
                   {/* Content */}
                   <div className="pb-4">
-                    <span className="text-xs font-bold uppercase tracking-widest text-primary-600">
+                    <span className="text-xs font-bold uppercase tracking-widest text-primary-900">
                       {item.year}
                     </span>
                     <h3 className="text-xl font-bold text-gray-900 mt-1 mb-2">

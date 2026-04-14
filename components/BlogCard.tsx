@@ -21,12 +21,12 @@ export default function BlogCard({
   return (
     <Link href={`/blog/${slug}`} className="card group block">
       {/* Category */}
-      <span className="inline-block text-xs font-semibold uppercase tracking-wider text-primary-600 bg-primary-50 px-3 py-1 rounded-full mb-4">
+      <span className="inline-block text-xs font-semibold uppercase tracking-wider text-primary-900 bg-primary-50 px-3 py-1 rounded-full mb-4">
         {category}
       </span>
 
       {/* Title */}
-      <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors line-clamp-2">
+      <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-900 transition-colors line-clamp-2">
         {title}
       </h3>
 
@@ -49,7 +49,7 @@ export default function BlogCard({
         </div>
         <ArrowUpRight
           size={18}
-          className="text-gray-400 group-hover:text-primary-600 transition-colors"
+          className="text-gray-400 group-hover:text-primary-900 transition-colors"
         />
       </div>
     </Link>

@@ -68,7 +68,7 @@ export default function WhyChooseUs() {
           {reasons.map((reason) => (
             <div key={reason.title} className="flex gap-4">
               <div className="shrink-0 w-11 h-11 rounded-lg bg-primary-100 flex items-center justify-center">
-                <reason.icon size={22} className="text-primary-600" />
+                <reason.icon size={22} className="text-primary-900" />
               </div>
               <div>
                 <h3 className="text-lg font-bold text-gray-900 mb-1">

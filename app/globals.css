@@ -34,7 +34,7 @@
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-primary-600 bg-white border-2 border-primary-600 rounded-full hover:bg-primary-50 transition-all duration-300 hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-primary-900 bg-white border-2 border-primary-900 rounded-full hover:bg-primary-50 transition-all duration-300 hover:-translate-y-0.5;
   }
 
   .btn-secondary-dark {
@@ -50,11 +50,15 @@
   }
 
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-900 to-primary-700;
+  }
+
+  .btn-primary-dark {
+    @apply inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-primary-800 rounded-full hover:bg-primary-900 transition-all duration-300 hover:shadow-lg hover:shadow-primary-800/25 hover:-translate-y-0.5;
   }
 
   .section-label {
-    @apply inline-block text-sm font-semibold uppercase tracking-widest text-primary-600 mb-4;
+    @apply inline-block text-sm font-semibold uppercase tracking-widest text-primary-900 mb-4;
   }
 
   .section-title {
@@ -124,6 +128,6 @@
 
 /* Selection color */
 ::selection {
-  background-color: #c7d2fe;
-  color: #1e1b4b;
+  background-color: #a5eef3;
+  color: #0e3d45;
 }

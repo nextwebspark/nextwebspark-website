@@ -89,13 +89,13 @@ export default function Services() {
               >
                 <service.icon size={24} className="text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-900 transition-colors">
                 {service.title}
               </h3>
               <p className="text-gray-600 leading-relaxed text-sm">
                 {service.description}
               </p>
-              <span className="inline-flex items-center mt-4 text-sm font-semibold text-primary-600 opacity-0 group-hover:opacity-100 transition-opacity">
+              <span className="inline-flex items-center mt-4 text-sm font-semibold text-primary-900 opacity-0 group-hover:opacity-100 transition-opacity">
                 Learn more →
               </span>
             </Link>
