@@ -52,7 +52,7 @@ export default function HowItWorks() {
 
               <div className="text-center">
                 {/* Icon */}
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary-600 mb-6 shadow-lg shadow-primary-600/25">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary-800 mb-6 shadow-lg shadow-primary-800/25">
                   <step.icon size={28} className="text-white" />
                 </div>
 

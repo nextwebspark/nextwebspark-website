@@ -75,20 +75,20 @@ export default function ContactPage() {
               {/* Contact Details */}
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-gray-700">
-                  <Mail size={20} className="text-primary-600" />
+                  <Mail size={20} className="text-primary-900" />
                   <a
                     href="mailto:alok.kumar@nextwebspark.com"
-                    className="hover:text-primary-600 transition-colors"
+                    className="hover:text-primary-900 transition-colors"
                   >
                     alok.kumar@nextwebspark.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3 text-gray-700">
-                  <MapPin size={20} className="text-primary-600" />
+                  <MapPin size={20} className="text-primary-900" />
                   <span>Ireland</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-700">
-                  <Clock size={20} className="text-primary-600" />
+                  <Clock size={20} className="text-primary-900" />
                   <span>Typically respond within 24 hours</span>
                 </div>
               </div>

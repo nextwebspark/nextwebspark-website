@@ -50,7 +50,7 @@ export default function ContactForm() {
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="text-primary-600 font-semibold hover:underline"
+          className="text-primary-900 font-semibold hover:underline"
         >
           Send another message
         </button>
@@ -139,7 +139,7 @@ export default function ContactForm() {
             href="https://calendly.com/nextwebspark/30min"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-primary-600 hover:underline"
+            className="text-primary-900 hover:underline"
           >
             book directly on Calendly
           </a>

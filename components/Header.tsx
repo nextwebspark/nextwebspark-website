@@ -19,11 +19,11 @@ export default function Header() {
       <nav className="container-main flex items-center justify-between h-20 py-4 px-6 sm:px-8 lg:px-12">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-9 h-9 bg-gradient-to-br from-primary-600 to-primary-400 rounded-lg flex items-center justify-center">
+          <div className="w-9 h-9 bg-primary-800 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-lg">N</span>
           </div>
-          <span className="text-xl font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
-            NextWeb<span className="text-primary-600">Spark</span>
+          <span className="text-xl font-bold text-gray-900 group-hover:text-primary-900 transition-colors">
+            NextWeb<span className="text-primary-900">Spark</span>
           </span>
         </Link>
 
@@ -33,12 +33,12 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-medium text-gray-600 hover:text-primary-600 transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-primary-600 after:transition-all hover:after:w-full"
+              className="text-sm font-medium text-gray-600 hover:text-primary-900 transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-primary-900 after:transition-all hover:after:w-full"
             >
               {item.name}
             </Link>
           ))}
-          <Link href="/contact" className="btn-primary text-sm !px-6 !py-2.5">
+          <Link href="/contact" className="btn-primary-dark text-sm !px-6 !py-2.5">
             Book a Free Call
           </Link>
         </div>
@@ -61,7 +61,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="block text-base font-medium text-gray-700 hover:text-primary-600 transition-colors py-2"
+                className="block text-base font-medium text-gray-700 hover:text-primary-900 transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.name}
